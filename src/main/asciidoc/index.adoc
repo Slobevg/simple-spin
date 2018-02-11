@@ -1,0 +1,10 @@
+= Spring REST Docs
+
+This is an example output for a service running at http://localhost:8080:
+
+.request
+include::{snippets}/spin/http-request.adoc[]
+
+.response
+include::{snippets}/spin/http-response.adoc[]
+
