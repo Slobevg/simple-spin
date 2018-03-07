@@ -9,7 +9,7 @@ class SpinController(
 ) {
 
     @GetMapping("/api/symbols")
-    fun symbols(): SpinService.Spin {
+    fun symbols(): Spin {
         return spinService.symbols()
     }
 }
